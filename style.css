@@ -1,0 +1,44 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-size:120%;
+    line-height: 1.65;
+    color:#0A122A;
+}
+
+h1,h2,h3,p,ul{
+    margin:0;
+    padding:0;
+}
+
+p{
+    margin: 0;
+    padding: 0 0 1rem 0;
+}
+
+a{
+    text-decoration-color: #f20837;
+    text-decoration-thickness: 2px;
+    color: #0A122A   
+}
+
+section{
+    max-width: 65ch;
+    margin: 3rem auto 5rem auto;
+    padding: 1rem;
+}
+
+section.embedded-content{
+    text-align: center;
+}
+
+section iframe{
+    margin: 0 auto;
+    display:block;
+    max-width:100%;
+}
